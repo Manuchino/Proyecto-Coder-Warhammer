@@ -8,6 +8,7 @@ h1 {
     font-size: 80px;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
 }
 h2 {
     font-size: 50px;
@@ -20,6 +21,16 @@ h3 {
     text-align: center;
     padding-bottom: 20px;
 }
+
+header nav{
+    background-color: black;
+}
+
+div a img{
+    height: 70px;
+    width: 100px;
+}
+
 
 .centro {
 background-image: url("../img/indice.jpg");
@@ -41,27 +52,24 @@ align-items: center;
 
 
 
-.navegador {
-    list-style: none;
+carousel-item img {
+    height: 200px;
+    width: 200px;
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    justify-content: right;
-    background-color: black;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 20px;
-    color: aliceblue;
+    justify-content: center;
 }
 
 
 
 footer {
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(34, 32, 32);
+}
+
+footer img {
+    padding-left: 20px;
 }
